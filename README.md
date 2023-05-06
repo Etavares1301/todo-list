@@ -1,5 +1,7 @@
 <h1> My to-do list</h1>
 
+<h2>Projeto desenvolvido no curso de Angular</h2>
+
 <h2> Sobre o Projeto</h2>
 <p>My to-do list é uma aplicação frontend desenvolvida em angular versão 14.2.</p>
 <p>A aplicação consiste em uma lista de tarefas em que pode ser adicionado um novo item, marcar como concluido e apagar um item ou todos da lista.</p>
