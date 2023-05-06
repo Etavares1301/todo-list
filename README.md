@@ -1,27 +1,61 @@
-# AppTodo
+<h1> My to-do list</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+<h2> Sobre o Projeto</h2>
+<p>My to-do list é uma aplicação frontend desenvolvida em angular versão 14.2.</p>
+<p>A aplicação consiste em uma lista de tarefas em que pode ser adicionado um novo item, marcar como concluido e apagar um item ou todos da lista.</p>
+<p>A aplicação também armazena todas as pesquisas realizadas no LocalStorage do browser. </p>
 
-## Development server
+<h2>Pré-requisito:</h2>
+<ul>
+    <li>npm / yarn</li>
+</ul>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<h2>Técnolias utilizadas:</h2>
+<ul>
+    <li>HTML5</li>
+    <li>CSS</li>
+    <li>SCSS</li>
+    <li>JavaScript</li>
+    <li>TypeScript</li>
+    <li>Angular</li>
+</ul>
 
-## Code scaffolding
+<h2> Como execultar o programa:</h2>
+<ol>
+    <li>Clonar o repositório</li>
+    <li>Abrir o Terminal na pasta do projeto</li>
+    <li>Execultar o comando 'npm i --force' para instação</li>
+</ol>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h2> Como rodar o projeto</h2>
+<ol>
+    <li>No Terminal da pasta do projeto execulte o comando 'ng serve'</li>
+    <li>Abra o Browser</li>
+    <li>Navegue para http://localhost:4200/.</li>
+</ol>
 
-## Build
+<h2>Ultilizando o programa:</h2>
+<p>Na pagina principal do programa temos o header uma imagem e a barra para adicionar tasks.</p>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![tasks-home](https://user-images.githubusercontent.com/53662188/236626650-532bf30a-331c-4077-918d-88de4b8a2b52.PNG)
 
-## Running unit tests
+<p>Para adionar uma task é só digitar o nome da task na barra e pressionar o botão enter do teclado.</p>
+<p>Na imagem abaixo é mostrado a task adiconada com um checkbox, um icone de uma lixeira e o botão Deletar todos. (A barra foi limpa automaticamente para facilitar uma nova adição de task)</p>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![task-add](https://user-images.githubusercontent.com/53662188/236626973-6cfd9586-398f-41a1-832c-a11a1273323c.PNG)
 
-## Running end-to-end tests
+<p>Ao marcar o checkbox a task ficará tracejada e descerá para o fim da lista, esse é o estado de concluido da task</p>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![task-concluida](https://user-images.githubusercontent.com/53662188/236627057-118f5b7a-41e2-4807-b22e-c3ed3ceab76d.PNG)
 
-## Further help
+<p>Ao clicar no icone da lixeira a task será removida da lista (Foi removido a task"Terceira task adicionada")</p>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![task removida](https://user-images.githubusercontent.com/53662188/236627787-f2650caf-d9d6-4780-8f43-324c124f4984.PNG)
+
+<p>Ao clicar no botão Deletar todos parecerá uma mensagem de confirmação, ao clicar no botão ok limpará a lista</p>
+
+![delete-all](https://user-images.githubusercontent.com/53662188/236628441-59db59b4-ecea-4d5a-9f2a-f39f28500689.PNG)
+
+<h2>Autor</h2>
+<p>Eduardo Tavares Bellomo</p>
+https://www.linkedin.com/in/eduardotbellomo
